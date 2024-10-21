@@ -157,7 +157,7 @@ body {
   margin-bottom: 24px;
 }
 
-.best-wrpapper{
+.best-wrзapper{
   display:flex;
   align-items:center;
   justify-content: center;
@@ -179,6 +179,7 @@ body {
 }
 
 .best-h1{
+  text-align:center;
   font-weight: 700;
   font-size: 24px;
   color: #0e1422;
@@ -236,4 +237,90 @@ body {
   margin-right: 87px;
 }
 
+.browsing{
+  width: 100%;
+  height: 304px;
+  background-color: #f6f6f6;
+  margin-top: 168px;
+}
 
+.browse-h1{
+  width: 351px;
+  height: 29px;
+  display:flex;
+  /* margin-left: 174px; */
+  /* margin-top: 52px; */
+  color:#0E1422;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.browse-info{
+  margin-top: 52px;
+  width: 462px;
+  height: 179px;
+  margin-left: 174px;
+}
+
+.browse-p{
+   width: 462px;
+   height: 50px; 
+   font-weight: 400;
+   font-size: 14px;
+   /* margin-left: 174px; */
+   margin-top: 24px;
+   margin-bottom: 32px;
+   color:#5C5F6A;
+}
+
+.browse-but{
+  width: 177px;
+  height: 44px;
+  background-color: #0E1422;
+  color:#fff;
+  border-radius:5px;
+  /* margin-left: 174px; */
+}
+
+/* .browse-img{
+  display:flex;
+  width: 225px;
+  height: 311px;
+  margin-left: 1405px;
+  margin-bottom: 14px;
+} */
+
+
+.browse-wrapper{
+  height: 304px;
+  width: 100%;
+  flex-direction: row;
+}
+
+.browse-container{
+  height: 304px;
+}
+
+
+.browse-img {
+  max-width: 100%; /* Ограничьте ширину изображения */
+  height: auto; /* Поддерживайте соотношение сторон */
+  display: block; /* Убедитесь, что изображение отображается как блок */
+  margin-left: 0; /* Уберите большой отступ слева */
+}
+
+.browse-container {
+  display: flex; /* Используем flexbox */
+  align-items: center; /* Выравнивание по центру по вертикали */
+}
+
+.browse-info {
+  margin-right: 20px; /* Добавьте отступ справа, если нужно */
+}
+
+.browse-img {
+  max-width: 100%; /* Ограничьте ширину изображения */
+  height: auto; /* Поддерживайте соотношение сторон */
+  display: block; /* Убедитесь, что изображение отображается как блок */
+  margin-left: 750px;
+}
