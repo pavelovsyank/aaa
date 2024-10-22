@@ -383,3 +383,51 @@ body {
   display: flex; flex-direction: column; align-items: flex-start; width: 239px; height: auto; /* Измените на auto, чтобы высота подстраивалась под содержимое */
   margin-bottom: 16px; /* Добавьте отступ для разделения между продуктами */
 }
+
+
+.feedback-wrapper{
+  display:flex;
+  flex-direction:row;
+  margin-top: 192px;
+  width: 100%;
+  height: 200px;
+  background-color: #f6f6f6;
+}
+
+.feedback-title{
+  margin-left: 174px;
+  padding-top: 64px;
+  width: 387px;
+  height: 72px;
+}
+
+.feed-h1{
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.feed-h3{
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.real-feed{
+  padding-top: 78px;
+  margin-left: 253px;
+  width: 500px;
+  height: 45px;
+}
+
+.input-feedback{
+  width: 320px;
+  height: 45px;
+}
+
+.feed-but{
+  width: 116px;
+  height: 44px;
+  background-color: #0e1422;
+  color:#fff;
+  margin-left: 16px;
+}
